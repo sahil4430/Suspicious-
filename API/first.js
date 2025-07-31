@@ -15,14 +15,14 @@ const dest = JSON.parse(fs.readFileSync(`${__dirname}/../data/destination.json`)
 });
   app.get('/api/v1/destinations/:id',(req,res)=>{
     
-    const ID = req.params.id * 1; // it convert any number into int by multiplying by 1
+    const ID = req.params.id * 1;  // it convert any number into int by multiplying by 1
      if(ID > dest.length){
       return res.status(404).json({
         status:'fail',
         message:"invalid id "
       })
     };
-    const ndest = dest.find( el => el.id === ID) ;
+    const ndest = dest.find( el => el.id ===ID) ;
 
     res.status(200).json({
         status: 'success',
@@ -45,7 +45,28 @@ const dest = JSON.parse(fs.readFileSync(`${__dirname}/../data/destination.json`)
     })
    })
  })
+ app.patch('/api/v1/destinations/:id',(req,res)=>{
+  res.status(200).json({
+    status: 'success',
+    data: {
+      dest: '<updated destination here>'
+    }
+  })
+ })
 
+ app.delete('/api/v1/destinations/:id',(req,res)=>{
+   if ( req.params.id*1 > dest.length){
+    return res.status(404).json({
+      status:'fail',
+      message:"invalid"
+    })
+   }
+   // 204 means no content
+   res.status(204).json({
+    status: 'success',
+    data:null,
+   })
+ })
 
   const port  = 3000;
   app.listen (port,()=>{
