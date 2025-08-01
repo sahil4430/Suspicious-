@@ -2,8 +2,11 @@
 const express = require('express');
  const  fs = require ('fs');
  const app = express();
+ const Morgan= require('morgan');
 const dest = JSON.parse(fs.readFileSync(`${__dirname}/../data/destination.json`));
 
+
+app.use(Morgan('dev'));// this is a middleware to log the request details in the console
  app.use(express.json());     // this is use as a midleware to parse JSON bodies
 
  //Customise midlware 
