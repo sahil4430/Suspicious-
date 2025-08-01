@@ -1,13 +1,24 @@
- const express = require('express');
+ const { exec } = require('child_process');
+const express = require('express');
  const  fs = require ('fs');
  const app = express();
 const dest = JSON.parse(fs.readFileSync(`${__dirname}/../data/destination.json`));
 
  app.use(express.json());     // this is use as a midleware to parse JSON bodies
 
+ //Customise midlware 
+  app.use((req,res,next)=>{
+     req.Time = new Date().toISOString();
+    next()
+  })
+  // this is a simple midleware to log the request time this is executed before the request handler 
+
  const Getalldest= (req,res)=>{
+  console.log(req.Time)
     res.status(200).json({
+        
         status: 'success',
+        executionTime: req.Time,
         result:dest.length,
         data : {
            dest
@@ -15,7 +26,7 @@ const dest = JSON.parse(fs.readFileSync(`${__dirname}/../data/destination.json`)
   });
 };
 const GetDest= (req,res)=>{
-    
+
     const ID = req.params.id * 1;   // it convert any number into int by multiplying by 1
      if(ID > dest.length){
       return res.status(404).json({

@@ -1,1 +1,114 @@
-[{"id":1,"photos":["http://www.glsvlsi.org/paris_pic.jpg","http://www.anderson-tours.co.uk/wp-content/uploads/2013/02/Eiffel-Tower-Paris-France.jpg","http://static.poshsblackbook.com/blog/wp-content/uploads/2012/03/paris-france.jpg","http://upload.wikimedia.org/wikipedia/en/4/41/Paris,France.jpg"],"price":1,"description":"Paris (English /ˈpærɪs/, i/ˈpɛrɪs/; French: [paʁi] ) is the capital and most populous city of France. It is situated on the River Seine, in the north of the country, at the heart of the Île-de-France region. Within its administrative limits (the 20 arrondissements), the city had 2,234,105 inhabitants in 2009 while its metropolitan area is one of the largest population centres in Europe with more than 12 million inhabitants. ","weather":0,"longitude":2.352221965789795,"activities":[3,5,2,0,1],"latitude":48.85661315917969,"videos":[],"temperature":2.3499999046325684,"country":"France","city":"Paris"},{"id":2,"photos":["http://upload.wikimedia.org/wikipedia/commons/7/79/Westminster_Abbey_by_Canaletto,_1749.jpg","http://www.theodora.com/wfb/photos/united_kingdom/big_ben_london_uk_photo_gov.jpg","http://www.webbaviation.co.uk/london/londonaerial.jpg","http://rmos.com/internationalshipping/wp-content/uploads/2011/03/London.jpg"],"price":2,"description":"London i/ˈlʌndən/ is the capital city of England and of the United Kingdom. It is the most populous region, urban zone and metropolitan area in the United Kingdom. Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium. London's ancient core, the City of London, largely retains its 1.12-square-mile (2.9 km2) mediaeval boundaries and in 2011 had a resident population of 7,375, making it the smallest city in England. Since at least the 19th century, the term London has also referred to the metropolis developed around this core. The bulk of this conurbation forms the London region and the Greater London administrative area,[note 1] governed by the Mayor of London and the London Assembly. ","weather":0,"longitude":-0.11982440203428268,"activities":[2,4,5,1,3],"latitude":51.51121520996094,"videos":[],"temperature":-0.8700000047683716,"country":"UK","city":"London"},{"id":3,"photos":["http://miriadna.com/desctopwalls/images/max/Rialto-Bridge-(Venice,-Italy).jpg","http://marketmaps.files.wordpress.com/2012/12/gondola-venice-italy.jpg","http://www.charterworld.com/news/wp-content/uploads/2012/01/Venice-Italy.jpg","http://miriadna.com/desctopwalls/images/max/Venice-(Italy).jpg"],"price":1,"description":"Venice (English /ˈvɛnɪs/; Italian: Venezia [veˈnɛttsia]  alternative obsolete form: Vinegia; Venetian: Venexia [veˈnɛsja]; Latin: Venetia; Slovene: Benetke) is a city in northeastern Italy sited on a group of 118 small islands separated by canals and linked by bridges. It is located in the marshy Venetian Lagoon which stretches along the shoreline, between the mouths of the Po and the Piave Rivers. Venice is renowned for the beauty of its setting, its architecture and its artworks. The city in its entirety is listed as a World Heritage Site, along with its lagoon. ","weather":1,"longitude":12.315515518188477,"activities":[3,1,0],"latitude":45.44084930419922,"videos":[],"temperature":5.730000019073486,"country":"Italy","city":"Venice"},{"id":4,"photos":["http://upload.wikimedia.org/wikipedia/commons/6/6c/Manhattan_night_march_USa.jpg","http://www.pakpublishers.com/downloads/wallpapers/U.S.A%20wallpapers/Manhattan,%20USA.jpg","http://upload.wikimedia.org/wikipedia/commons/d/d8/Manhattan_night_march_USA2.jpg","http://www.airpano.ru/files/manhattan_big_tour_big.jpg"],"price":1,"description":"Manhattan is the most densely populated of the five boroughs of New York City. The borough is coterminous with New York County, an original county of the U.S. state of New York. The borough mostly consists of Manhattan Island, bounded by the East, Hudson and Harlem Rivers, but also includes several small adjacent islands and a small area on the mainland. Manhattan has been described as the economic and cultural center of the United States and is home to the United Nations Headquarters. Wall Street in Lower Manhattan is one of the financial capitals of the world, has an estimated GDP of over $1.2 trillion, and is home of both the New York Stock Exchange and NASDAQ. Manhattan's real estate market is among the most expensive in the world, and many multinational media conglomerates are based in the borough. ","weather":0,"longitude":-73.95972442626953,"activities":[3,2,4],"latitude":40.790279388427734,"videos":[],"temperature":1.409999966621399,"country":"USA","city":"Manhattan"},{"id":5,"photos":["http://upload.wikimedia.org/wikipedia/commons/7/74/Central_Cape_Town.jpg","http://www.cape-town.info/media/capetown-4g.jpg","http://images.nationalgeographic.com/wpf/media-live/photos/000/017/cache/capetown-view_1797_600x450.jpg","http://www.photoflytravel.org/images/2011/07/SA-Cape-Town.jpg"],"price":1,"description":"Cape Town (Afrikaans: Kaapstad [ˈkɑːpstɐt]; Xhosa: iKapa) is the second-most populous city in South Africa, after Johannesburg, and the provincial capital and primate city of the Western Cape. As the seat of the National Parliament, it is also the legislative capital of the country. It forms part of the City of Cape Town metropolitan municipality. The city is famous for its harbour as well as its natural setting in the Cape floral kingdom, as well as for such well-known landmarks as Table Mountain and Cape Point. ","weather":1,"longitude":18.424055099487305,"activities":[5,0],"latitude":-33.924869537353516,"videos":[],"temperature":17.239999771118164,"country":"South Africa","city":"Cape Town"},{"id":6},{"id":7,"price":10,"temperature":17.239999771118164,"country":"South Africa","city":"Cape Town"},{"id":8,"price":10,"temperature":17.239999771118164,"country":"South Africa","city":"Cape Town"}]
+[
+  {
+    "id": 1,
+    "photos": [
+      "http://www.glsvlsi.org/paris_pic.jpg",
+      "http://www.anderson-tours.co.uk/wp-content/uploads/2013/02/Eiffel-Tower-Paris-France.jpg",
+      "http://static.poshsblackbook.com/blog/wp-content/uploads/2012/03/paris-france.jpg",
+      "http://upload.wikimedia.org/wikipedia/en/4/41/Paris,France.jpg"
+    ],
+    "price": 1,
+    "description": "Paris (English /ˈpærɪs/, i/ˈpɛrɪs/; French: [paʁi] ) is the capital and most populous city of France. It is situated on the River Seine, in the north of the country, at the heart of the Île-de-France region. Within its administrative limits (the 20 arrondissements), the city had 2,234,105 inhabitants in 2009 while its metropolitan area is one of the largest population centres in Europe with more than 12 million inhabitants.",
+    "weather": 0,
+    "longitude": 2.352221965789795,
+    "activities": [3, 5, 2, 0, 1],
+    "latitude": 48.85661315917969,
+    "videos": [],
+    "temperature": 2.3499999046325684,
+    "country": "France",
+    "city": "Paris"
+  },
+  {
+    "id": 2,
+    "photos": [
+      "http://upload.wikimedia.org/wikipedia/commons/7/79/Westminster_Abbey_by_Canaletto,_1749.jpg",
+      "http://www.theodora.com/wfb/photos/united_kingdom/big_ben_london_uk_photo_gov.jpg",
+      "http://www.webbaviation.co.uk/london/londonaerial.jpg",
+      "http://rmos.com/internationalshipping/wp-content/uploads/2011/03/London.jpg"
+    ],
+    "price": 2,
+    "description": "London i/ˈlʌndən/ is the capital city of England and of the United Kingdom. It is the most populous region, urban zone and metropolitan area in the United Kingdom. Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium...",
+    "weather": 0,
+    "longitude": -0.11982440203428268,
+    "activities": [2, 4, 5, 1, 3],
+    "latitude": 51.51121520996094,
+    "videos": [],
+    "temperature": -0.8700000047683716,
+    "country": "UK",
+    "city": "London"
+  },
+  {
+    "id": 3,
+    "photos": [
+      "http://miriadna.com/desctopwalls/images/max/Rialto-Bridge-(Venice,-Italy).jpg",
+      "http://marketmaps.files.wordpress.com/2012/12/gondola-venice-italy.jpg",
+      "http://www.charterworld.com/news/wp-content/uploads/2012/01/Venice-Italy.jpg",
+      "http://miriadna.com/desctopwalls/images/max/Venice-(Italy).jpg"
+    ],
+    "price": 1,
+    "description": "Venice is a city in northeastern Italy sited on a group of 118 small islands separated by canals and linked by bridges. It is located in the marshy Venetian Lagoon which stretches along the shoreline...",
+    "weather": 1,
+    "longitude": 12.315515518188477,
+    "activities": [3, 1, 0],
+    "latitude": 45.44084930419922,
+    "videos": [],
+    "temperature": 5.730000019073486,
+    "country": "Italy",
+    "city": "Venice"
+  },
+  {
+    "id": 4,
+    "photos": [
+      "http://upload.wikimedia.org/wikipedia/commons/6/6c/Manhattan_night_march_USa.jpg",
+      "http://www.pakpublishers.com/downloads/wallpapers/U.S.A%20wallpapers/Manhattan,%20USA.jpg",
+      "http://upload.wikimedia.org/wikipedia/commons/d/d8/Manhattan_night_march_USA2.jpg",
+      "http://www.airpano.ru/files/manhattan_big_tour_big.jpg"
+    ],
+    "price": 1,
+    "description": "Manhattan is the most densely populated of the five boroughs of New York City. It has been described as the economic and cultural center of the United States...",
+    "weather": 0,
+    "longitude": -73.95972442626953,
+    "activities": [3, 2, 4],
+    "latitude": 40.790279388427734,
+    "videos": [],
+    "temperature": 1.409999966621399,
+    "country": "USA",
+    "city": "Manhattan"
+  },
+  {
+    "id": 5,
+    "photos": [
+      "http://upload.wikimedia.org/wikipedia/commons/7/74/Central_Cape_Town.jpg",
+      "http://www.cape-town.info/media/capetown-4g.jpg",
+      "http://images.nationalgeographic.com/wpf/media-live/photos/000/017/cache/capetown-view_1797_600x450.jpg",
+      "http://www.photoflytravel.org/images/2011/07/SA-Cape-Town.jpg"
+    ],
+    "price": 1,
+    "description": "Cape Town is the second-most populous city in South Africa, after Johannesburg. It is the legislative capital of the country and is famous for its harbour and natural setting...",
+    "weather": 1,
+    "longitude": 18.424055099487305,
+    "activities": [5, 0],
+    "latitude": -33.924869537353516,
+    "videos": [],
+    "temperature": 17.239999771118164,
+    "country": "South Africa",
+    "city": "Cape Town"
+  },
+  {
+    "id": 6
+  },
+  {
+    "id": 7,
+    "price": 10,
+    "temperature": 17.239999771118164,
+    "country": "South Africa",
+    "city": "Cape Town"
+  },
+  {
+    "id": 8,
+    "price": 10,
+    "temperature": 17.239999771118164,
+    "country": "South Africa",
+    "city": "Cape Town"
+  }
+]
