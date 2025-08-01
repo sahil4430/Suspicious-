@@ -3,7 +3,7 @@
  const app = express();
 const dest = JSON.parse(fs.readFileSync(`${__dirname}/../data/destination.json`));
 
- app.use(express.json());  // this ius use as a midlw ware to parse JSON bodies
+ app.use(express.json());     // this is use as a midleware to parse JSON bodies
 
  const Getalldest= (req,res)=>{
     res.status(200).json({
@@ -16,7 +16,7 @@ const dest = JSON.parse(fs.readFileSync(`${__dirname}/../data/destination.json`)
 };
 const GetDest= (req,res)=>{
     
-    const ID = req.params.id * 1;  // it convert any number into int by multiplying by 1
+    const ID = req.params.id * 1;   // it convert any number into int by multiplying by 1
      if(ID > dest.length){
       return res.status(404).json({
         status:'fail',
@@ -32,6 +32,8 @@ const GetDest= (req,res)=>{
         }
   });
 }; 
+
+// 201 means created successfully
  const POSTDest = (req,res)=>{
   const NEW_ID = dest[dest.length -1].id + 1;
   const ne_dest = Object.assign({id: NEW_ID}, req.body); // this will create a new object with the new id and the body of the request
@@ -72,8 +74,8 @@ const GetDest= (req,res)=>{
 
  // routes. 
 
- //traditional way
-  // app.get('/api/v1/destinations',Getalldest);
+//traditional way
+// app.get('/api/v1/destinations',Getalldest);
 //   app.get('/api/v1/destinations/:id', GetDest);
 //  app.post('/api/v1/destinations', POSTDest)
 //  app.patch('/api/v1/destinations/:id', UpdateDest)
