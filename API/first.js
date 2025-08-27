@@ -7,7 +7,7 @@ const dest = JSON.parse(fs.readFileSync(`${__dirname}/../data/destination.json`)
 
 
 app.use(Morgan('dev'));// this is a middleware to log the request details in the console
- app.use(express.json());     // this is use as a midleware to parse JSON bodies
+         app.use(express.json());     // this is use as a midleware to parse JSON bodies
 
  //Customise midlware 
   app.use((req,res,next)=>{
