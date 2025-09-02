@@ -1,6 +1,7 @@
 const Dotenv = require('dotenv');
 const mongoose = require('mongoose');
 const express = require('express');
+const Tour = require('./MODELS/tourmodel');
 
 Dotenv.config({path: './config.env'});
 const app = express();
@@ -18,4 +19,16 @@ const testTour = new Tour({
 
 testTour.save().then(doc=>{
     console.log(doc)
+})
+.catch( err =>{
+    console.log(' erroe us this here it is. ', err)
+})
+
+console.log(process.env);
+const Morgan = require('morgan');
+app.use(Morgan('dev'));
+const port = 3000;
+app.listen( port,()=>{
+    console.log(`server is running on port ${port}`);
+
 })
