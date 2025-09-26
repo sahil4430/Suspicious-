@@ -4,7 +4,8 @@ const tour_Schema = new mongoose.Schema({
     rating : {type: Number, default: 4.5},
     price:{
         type : Number,
-        required:[true,"tourn must contain a price"]
+        required:[true,"tourn must contain a price"],
+        
     }
 })
 const Tour = mongoose.model('Tour', tour_Schema)
