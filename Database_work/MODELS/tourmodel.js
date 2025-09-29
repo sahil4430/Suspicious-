@@ -11,3 +11,7 @@ const tour_Schema = new mongoose.Schema({
 const Tour = mongoose.model('Tour', tour_Schema)
 
 module.exports = Tour;
+ const mongoose = require('mongoose');
+ const tour_schema = new mongoose.schema({
+    name: {}
+ })
